@@ -1,1 +1,1 @@
-web: gunicorn project:todolist
+web: FLASK_APP=todolist.py flask run
